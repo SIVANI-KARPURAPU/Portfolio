@@ -1,0 +1,621 @@
+/*====================================================
+
+RESPONSIVE - LARGE LAPTOPS
+
+====================================================*/
+
+@media (max-width:1200px){
+
+.container{
+
+    width:92%;
+
+}
+
+.home-content{
+
+    gap:60px;
+
+}
+
+.left-content h1{
+
+    font-size:3.8rem;
+
+}
+
+.image-box{
+
+    width:380px;
+
+    height:480px;
+
+}
+
+.about-container{
+
+    grid-template-columns:380px 1fr;
+
+}
+
+}
+
+/*====================================================
+
+TABLETS
+
+====================================================*/
+
+@media (max-width:991px){
+
+section{
+
+    padding:90px 0;
+
+}
+
+#menu-btn{
+
+    display:block;
+
+    color:#fff;
+
+}
+
+.nav-menu{
+
+    position:absolute;
+
+    top:100%;
+
+    left:-100%;
+
+    width:100%;
+
+    background:#08101d;
+
+    flex-direction:column;
+
+    text-align:center;
+
+    gap:0;
+
+    transition:.4s;
+
+    padding:20px 0;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.nav-menu.active{
+
+    left:0;
+
+}
+
+.nav-menu li{
+
+    padding:18px 0;
+
+}
+
+.nav-icons{
+
+    margin-left:auto;
+
+    margin-right:18px;
+
+}
+
+.home{
+
+    padding-top:150px;
+
+}
+
+.home-content{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+.left-content{
+
+    order:2;
+
+}
+
+.right-content{
+
+    order:1;
+
+}
+
+.left-content p{
+
+    margin:auto auto 30px;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.social-links{
+
+    justify-content:center;
+
+}
+
+.image-box{
+
+    width:350px;
+
+    height:440px;
+
+}
+
+.project-card{
+
+    left:0;
+
+}
+
+.cert-card{
+
+    right:0;
+
+}
+
+.cgpa-card{
+
+    left:0;
+
+}
+
+.career-card{
+
+    right:0;
+
+}
+
+.about-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.about-image{
+
+    max-width:380px;
+
+    margin:auto;
+
+}
+
+.about-content{
+
+    text-align:center;
+
+}
+
+.about-highlights{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+.contact-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.achievement-card,
+
+.achievement-card.reverse{
+
+    grid-template-columns:1fr;
+
+}
+
+.achievement-card.reverse .achievement-image{
+
+    order:1;
+
+}
+
+.achievement-card.reverse .achievement-content{
+
+    order:2;
+
+}
+
+}
+
+/*====================================================
+
+MOBILE DEVICES
+
+====================================================*/
+
+@media (max-width:768px){
+
+html{
+
+    font-size:95%;
+
+}
+
+.container{
+
+    width:92%;
+
+}
+
+section{
+
+    padding:70px 0;
+
+}
+
+.left-content h1{
+
+    font-size:2.8rem;
+
+}
+
+.left-content h2{
+
+    font-size:1.45rem;
+
+    min-height:40px;
+
+}
+
+.left-content p{
+
+    font-size:.98rem;
+
+}
+
+.badge{
+
+    font-size:.85rem;
+
+    padding:10px 18px;
+
+}
+
+.image-box{
+
+    width:300px;
+
+    height:380px;
+
+}
+
+.floating-card{
+
+    padding:12px 18px;
+
+}
+
+.floating-card h2{
+
+    font-size:1.25rem;
+
+}
+
+.floating-card p{
+
+    font-size:.75rem;
+
+}
+
+.project-card{
+
+    top:20px;
+
+    left:-10px;
+
+}
+
+.cert-card{
+
+    top:80px;
+
+    right:-10px;
+
+}
+
+.cgpa-card{
+
+    bottom:90px;
+
+    left:-10px;
+
+}
+
+.career-card{
+
+    bottom:20px;
+
+    right:-10px;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.hero-buttons a{
+
+    width:100%;
+
+    max-width:260px;
+
+    text-align:center;
+
+}
+
+.about-highlights{
+
+    grid-template-columns:1fr;
+
+}
+
+.skills-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.projects-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.project-image{
+
+    height:220px;
+
+}
+
+.project-buttons{
+
+    flex-direction:column;
+
+}
+
+.project-btn{
+
+    width:100%;
+
+    justify-content:center;
+
+}
+
+.contact-right{
+
+    padding:25px;
+
+}
+
+.contact-box{
+
+    flex-direction:column;
+
+    text-align:center;
+
+    align-items:center;
+
+}
+
+.contact-box i{
+
+    margin-bottom:12px;
+
+}
+
+.footer-icons{
+
+    flex-wrap:wrap;
+
+}
+
+}
+
+/*====================================================
+
+SMALL PHONES
+
+====================================================*/
+
+@media (max-width:480px){
+
+.left-content h1{
+
+    font-size:2.2rem;
+
+}
+
+.left-content h2{
+
+    font-size:1.2rem;
+
+}
+
+.section-title h2{
+
+    font-size:2rem;
+
+}
+
+.about-content h3{
+
+    font-size:1.5rem;
+
+}
+
+.image-box{
+
+    width:250px;
+
+    height:320px;
+
+}
+
+.floating-card{
+
+    display:none;
+
+}
+
+.navbar{
+
+    padding:15px 18px;
+
+}
+
+.logo{
+
+    font-size:1.6rem;
+
+}
+
+.nav-icons{
+
+    gap:10px;
+
+}
+
+.nav-icons a,
+
+#theme-toggle{
+
+    width:38px;
+
+    height:38px;
+
+}
+
+.scroll-down{
+
+    margin-top:40px;
+
+}
+
+.scroll-down a{
+
+    width:50px;
+
+    height:50px;
+
+}
+
+.project-content{
+
+    padding:22px;
+
+}
+
+.achievement-content{
+
+    padding:24px;
+
+}
+
+.contact-right{
+
+    padding:20px;
+
+}
+
+footer{
+
+    padding:50px 15px 25px;
+
+}
+
+footer h2{
+
+    font-size:1.7rem;
+
+}
+
+#topBtn{
+
+    width:48px;
+
+    height:48px;
+
+    right:18px;
+
+    bottom:18px;
+
+}
+
+}
+
+/*====================================================
+
+EXTRA SMALL DEVICES
+
+====================================================*/
+
+@media (max-width:360px){
+
+.left-content h1{
+
+    font-size:2rem;
+
+}
+
+.image-box{
+
+    width:220px;
+
+    height:290px;
+
+}
+
+.badge{
+
+    font-size:.75rem;
+
+}
+
+.btn-primary,
+
+.btn-secondary{
+
+    width:100%;
+
+}
+
+.social-links{
+
+    gap:12px;
+
+}
+
+.social-links a{
+
+    width:45px;
+
+    height:45px;
+
+}
+
+}
